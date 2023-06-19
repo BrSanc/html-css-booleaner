@@ -30,6 +30,11 @@ a {
     display: inline;
 }
 
+#list{
+    margin-left: -20px;
+
+}
+
 
 table {
     border-collapse: collapse;
