@@ -1,5 +1,12 @@
 header {
+    background-image: url(../img/pattern.png) ;
+    background-size: 200px;
     background-color: lightblue;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo {
@@ -9,17 +16,26 @@ header {
     margin-left: 10px;
 }
 
-.sottolineato{
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.citazione{
+    font-size: 12px;
+}
+
+#sottolineato{
     background-color: yellow;
     display: inline;
-    line-height: 0.7;
 }
 
 
 table {
     border-collapse: collapse;
     width: 100%;
-    margin:auto;
+    
+    
   }
   
 th{
@@ -33,8 +49,9 @@ tr:nth-child(even){background-color: #f2f2f2}
 td {
     padding-top: 15px;
     padding-bottom: 15px;
-    align-items: center;
+    
 }
+
 footer{
     background-color: purple;
     color: white;
